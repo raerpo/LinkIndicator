@@ -1,23 +1,15 @@
-indicator-cpuspeed
+LinkIndicator
 ==================
 
-On Ubuntu 12.04 Unity, I was missing an indicator that could show me the
-current frequency of all 4 my CPU cores, so I wrote this minimal sample
-in Python to do just that.
+Algunas veces necesitamos tener a la mano algunos links por ejemplo de imágenes, canciones, sitios interesantes, etc. Normalmente
+solo bastaria con entrar al explorador y buscar el link que necesitamos pero si no tuvieramos que hacer esto sino simplemente buscarlo
+desde un indicador disponible en la barra de tareas seria mucho mejor.
 
-It uses PyGObject, and simply parses out /proc/cpuinfo every few seconds
-to extract the current frequencies of ALL your CPU cores. These frequencies
-are then shown in a label in the indicator area.
+LinkIndicator esta hecho en Python usando el toolkit GTK+3, este indicador funciona para cualquier distribución basada en Ubuntu.
 
-It looks like this:
-
-![screenshot of indicator-cpuspeed](http://dl.dropbox.com/u/207154/indicator-cpuspeed.png)
-
-I'm making this available under the BSD license just in case someone else
-needs a minimal sample to get started with, or an indicator to show the CPU
-frequency (but that would be weird).
+Metodo de instalación (Proximamente)
 
 -- 
-Charl P. Botha
-http://charlbotha.com/
+Rafael Poveda
+http://raerpo.com
 
